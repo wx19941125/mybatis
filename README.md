@@ -9,4 +9,17 @@ mybatis,数据库持久层框架，ORM框架。
 ### 搭建mybatis环境
 
 导包→mybatis.xml→Mapper.xml→测试;
-   
+
+### mybatis单表CURD
+
+XML+Mapper;传递参数和对结果集的处理;
+
+### mybatis多表CURD
+
+XML+Mapper;级联查询和对自定义结果集的处理;动态sql查询;
+
+### mybatis事务处理
+
+使用JDBC事务管理(java.sql.Connection)完成对事务的处理,即``` <transactionManager type="JDBC" /><!--配置事务的管理方式--> ``` 
+
+### mybatis缓存机制
