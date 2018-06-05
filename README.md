@@ -19,6 +19,8 @@ XML+Mapper;级联查询和对自定义结果集的处理;动态sql查询;
 
 ### mybatis事务处理
 
-使用JDBC事务(java.sql.Connection)完成事务管理,即``` <transactionManager type="JDBC" /><!--配置事务的管理方式--> ```
+使用JDBC事务(java.sql.Connection)完成事务管理,即``` <transactionManager type="JDBC" /> ```
 
 ### mybatis缓存机制
+
+一级缓存;二级缓存;
